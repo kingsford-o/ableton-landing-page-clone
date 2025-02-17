@@ -1,0 +1,392 @@
+*{
+    font-family: futura-pt, Avenir, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+
+.navbar {
+    background-color: #f8f9fa !important; 
+    padding: 10px 20px;
+}
+
+
+.main-nav__logo__image {
+    height: 20px;
+    width: auto;
+}
+.navbar-nav .nav-link {
+    color: black !important;
+    font-weight: 500;
+    padding: 10px 15px;
+}
+
+
+.navbar-nav .nav-link.orange {
+    color: orange !important;
+}
+
+
+.navbar-nav .nav-link,
+.right-navbar-text a {
+    text-decoration: none !important;
+}
+
+
+.right-navbar-text {
+    display: inline-block;
+    margin-left: 15px; 
+}
+
+.right-navbar-text a {
+    font-size: 16px;
+}
+
+.right-navbar-text:first-child a {
+    color: blue; 
+}
+
+.right-navbar-text:last-child a {
+    color: black; 
+}
+
+
+.navbar > div:last-child {
+    margin-left: auto; 
+    display: flex;
+    align-items: center;
+}
+.orange {
+    color: orange;
+}
+.nav-item{
+    font-size: .875rem;
+    line-height: 1.5;
+}
+
+.first-bold-text{
+    align-self: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: justify;
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-weight: 500;
+    gap: 50px;
+    
+    
+}
+
+.first-image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start ;
+    gap: 50px;
+    ;
+
+
+}
+.second-bold-text {
+    display: flex;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: justify;
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    
+
+}
+.bg-lemonade {
+    background-color: #FBFFA7;
+    width: 60%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.overlapping-images-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+div.image-left{
+    width: 40%;
+    height: 50%;
+    object-fit: cover;
+    position: relative;
+    right: -10%;
+}
+
+
+ .image-right {
+    width: 80%;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+.image-right {
+    width: 49%;
+    height: 50%;
+}
+.text-video-container{
+    margin-top: 70px;
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+div.video-container{
+    margin-left: 50%;
+    margin-right: 50%;
+
+
+}
+
+
+.cyan-board{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-right: 40%;
+    gap: 100px;
+    background-color: #b6ffc0;
+    height: 900px;
+    padding-left: 190px;
+    padding-top: 100px;
+
+}
+
+.cyan-right-image{
+    margin-left: 55%;
+    margin-top: -55%;
+}
+.second-overlapped-images{
+    margin-bottom: 300px;
+
+}
+.second-bold-text-2{
+  
+    display: flex;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: justify;
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-top: -3%;
+    margin-bottom: 50px;
+}
+
+
+.mauve-block{
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 850px;
+    background-color: #d5b3ff;
+}
+.mauve-right-pic{
+    width: 550px;
+    margin-left: 60%;
+    margin-top: -70%;
+}
+.mauve-left-pic{
+margin-bottom: -65%;
+padding-left: 8%;
+width: 500px;
+
+
+}
+.third-overlapped-images{
+    margin-bottom: 70px;
+}
+
+
+.wrapper {
+    display: flex;
+    width: 80vw;  
+    height: 60vh; 
+}
+
+.color-section {
+    width: 40%; 
+    background-color: #B1C5FF; 
+    height: 500px;
+
+}
+
+.wrapper img {
+    width: 60%; 
+    height: 140%; 
+    object-fit: cover; 
+    align-self: flex-start; 
+    margin-left: 10%;
+}
+.container {
+
+    width: 80vw; /* 80% of the screen width */
+}
+
+.text-box {
+    background-color: #a9c1fc; /* Light blue background */
+    width: 110%; /* Text section takes 40% */
+    font-family: "Averta", Arial, sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    height: 500px;
+    margin-right: -10%;
+    font-size: 22px;
+    line-height: 1.4;
+    font-weight: 500;
+    color: black;
+}
+
+.text-box a {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+/* Footer Styles */
+.footer {
+    padding: 50px 10%;
+    background-color: #fff;
+    margin-top: 200px;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+
+/* Footer Columns */
+.footer-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-column h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.footer-column h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.footer-column ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Social Media Icons */
+.social-icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+    height: 20px;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+}
+
+/* Newsletter */
+.newsletter {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.newsletter input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.newsletter button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Language Selection */
+.footer-column select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Footer Bottom Section */
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+.footer-bottom ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    gap: 15px;
+}
+
+.footer-bottom ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-bottom ul li a:hover {
+    text-decoration: underline;
+}
+
+
+.logo-icon {
+    font-weight: bold;
+    font-size: 16px;
+}
