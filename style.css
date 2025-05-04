@@ -5,14 +5,15 @@
 
 
 .navbar {
-    background-color: #f8f9fa !important; 
+    background-color: #f8f9ff !important; 
     padding: 10px 20px;
-}
+}   
 
 
 .main-nav__logo__image {
     height: 20px;
     width: auto;
+    z-index: 100;
 }
 .navbar-nav .nav-link {
     color: black !important;
